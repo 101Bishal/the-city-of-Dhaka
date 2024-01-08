@@ -1,0 +1,48 @@
+/*header related style*/
+*{
+    padding: 0 auto;
+    margin: 0;
+}
+.header{
+    background-image: url(resources/Banner\ Image.png);
+    justify-content: center;
+    background-position: center;
+    align-items: center;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    font-family: 'Merriweather', serif;
+    display: flex;
+    flex-direction: column;
+    padding: 0 auto;
+}
+.happy{
+color: white;
+text-align: center;
+font-size: 32px;
+font-weight: 800;
+padding: 0px;
+}
+.party{
+color: white;
+text-align: center;
+font-size: 72px;
+font-weight: 900;
+width: 632px;
+padding: 0px;
+}
+/*main related style*/
+.off{
+color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+padding: 0%;
+}
+.offf{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
